@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <main>
+        <div id="modal-box">
+            <div class="content">
+            <h3>Examination Completed</h3><p>
+                check back later for your result
+            </p>
+            <button id="home-page">OK</button>
+        </div>
+    </div>
+        
+    <div class="card-wrapper">
+            <header>
+            <div class="logo">
+                <img src="./image/logo.jpg" alt="logo">
+            </div>
+            <nav id="page-nav">
+                <label for="hamburgar">&#9776;</label>
+                <input type="checkbox" id="hamburgar">
+                <ul>
+                    <li> <a href="">Home</a></li>
+                    <li>
+                        <div class="dropdown">
+                            <button onclick="btnClicked()" class="dropbtn">Tracks <i class="fa fa-caret-down"></i></button>
+                            <div id="btnDropdown" class="dropdown-menu">
+                              <a href="#start-btn">Frontend</a>
+                              <a href="#start-btn">Design</a>
+                              <a href="#start-btn">Backend</a>
+                              <a href="#start-btn">Mobile</a>
+                            </div>
+                          </div>
+                          
+                    </li>
+                    
+                    <li> <a href="">Timetable</a></li>
+                    <li> <a href="">Logout</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+            <div class="instructions">
+                <h3>Welcome to <a href="start.ng"> StartNG</a> Examination portal</h3>
+                <p><h5>Welcome to startng Examination portal.All services on this portal are restricted, hence, 
+                    only authenticated users can access them.</h5></p>
+                    <h4>Please take your time to read the following instructions</h4>
+                    <p><h3 style="margin-top: 1rem; color: rgb(126, 31, 31);">General instructions for exams:</h3></p><br>
+
+                    <ol>
+                        <li>We assume that the applicant taking the online test has a basic familiarity with computers
+                             and is comfortable with the use of a keyboard and mouse.</li>
+                        <li>If you do not know the answer to any of the questions, Please move to the next question as your time 
+                            would be counting
+                        </li>
+
+                        <li>to commence the exam, Click on the button below </li>
+                        <li>Estimated time for the actual exams sections is three(3) hours</li>
+                        
+                        <li>Once you press "submit your answers," on the last page of the exam, you will not 
+                            be able to go back to make any changes. </li>
+                        <li>After the three-hour exam period, the exam will automatically end. </li>
+                        <li>Please make sure that you read the instructions carefully again before you start the exam. </li>
+                    </ol>
+            </div>
+        
+            <div id="start-btn">
+                <button> Click Here to start</button>
+            </div>
+        </div> 
+        <script src="script.js"></script>
+    </main>
+</body>
+</html>
