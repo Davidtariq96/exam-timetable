@@ -1,2 +1,1 @@
-# exam-timetable
-timetable
+Created exam instructions and timetable
